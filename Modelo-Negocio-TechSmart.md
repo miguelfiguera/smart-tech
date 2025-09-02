@@ -683,40 +683,20 @@ Content Strategy:
 ```
 
 #### **2. USA Influencer Partnerships**
-- **Tech YouTubers**: MKBHD, Unbox Therapy, Austin Evans style channels
-- **Gaming streamers**: Twitch/YouTube gaming influencers
-- **Lifestyle tech**: Casey Neistat, Peter McKinnon followers
-- **TikTok tech**: Short-form tech content creators
+- **Meta/Facebook Influencers**: Tech content creators on Facebook/Instagram
+- **Instagram Tech**: Product showcase and review accounts
+- **Facebook Groups**: Tech community engagement and partnerships
 
 #### **3. Paid Advertising Strategy**
 ```javascript
 const adStrategy = {
-  googleAds: {
-    campaigns: ['search', 'shopping', 'display'],
-    keywords: ['comprar iPhone', 'tecnología barata', 'gadgets 2025'],
-    budget: '40% del ad spend',
-    targeting: 'search intent + lookalikes'
-  },
-  
   facebookMeta: {
-    campaigns: ['awareness', 'conversion', 'retargeting'],
-    creative: 'video product demos + user reviews',
-    budget: '35% del ad spend',
-    targeting: 'tech interests + behaviors'
-  },
-  
-  tiktokAds: {
-    campaigns: ['brand awareness', 'traffic'],
-    creative: 'trending tech videos + challenges',
-    budget: '15% del ad spend',
-    targeting: 'Gen Z + millennials'
-  },
-  
-  youtubeAds: {
-    campaigns: ['awareness', 'consideration'],
-    creative: 'product reviews + tutorials',
-    budget: '10% del ad spend',
-    targeting: 'tech channels viewers'
+    campaigns: ['awareness', 'conversion', 'retargeting', 'catalog'],
+    creative: 'video product demos + user reviews + carousel ads',
+    budget: '100% del ad spend',
+    targeting: 'US tech interests + behaviors + age 18-45 + lookalikes',
+    platforms: ['Facebook', 'Instagram', 'Messenger'],
+    objectives: ['traffic', 'conversions', 'catalog_sales', 'lead_generation']
   }
 };
 ```

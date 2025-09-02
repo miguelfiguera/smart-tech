@@ -26,7 +26,7 @@ Estrategia de marketing digital completamente automatizada para TechSmart, utili
 #### Segmento 1: Tech Enthusiasts (40%)
 - **Perfil**: Early adopters, presupuesto alto
 - **Productos**: Últimas innovaciones, gadgets premium
-- **Canales**: Email premium, YouTube, LinkedIn
+- **Canales**: Email premium, Facebook, Instagram
 
 #### Segmento 2: Budget Conscious (35%)
 - **Perfil**: Buscan value for money, comparadores
@@ -36,7 +36,7 @@ Estrategia de marketing digital completamente automatizada para TechSmart, utili
 #### Segmento 3: Business Users (25%)
 - **Perfil**: Compras para empresa, bulk orders
 - **Productos**: Hardware profesional, software empresarial
-- **Canales**: LinkedIn, email B2B, content marketing
+- **Canales**: Facebook B2B, email B2B, content marketing
 
 ## Workflow de Marketing Automatizado
 
@@ -55,11 +55,11 @@ flowchart TD
     BUDGET --> EMAIL_DEALS[Email Deals Campaign]
     BUSINESS --> EMAIL_B2B[Email B2B Campaign]
     
-    EMAIL_PREMIUM --> SOCIAL_LINKEDIN[LinkedIn Ads]
+    EMAIL_PREMIUM --> SOCIAL_FACEBOOK[Facebook Ads]
     EMAIL_DEALS --> SOCIAL_FB[Facebook/Instagram Ads]
     EMAIL_B2B --> CONTENT_MARKETING[Content Marketing]
     
-    SOCIAL_LINKEDIN --> RETARGET[Retargeting Campaign]
+    SOCIAL_FACEBOOK --> RETARGET[Retargeting Campaign]
     SOCIAL_FB --> RETARGET
     CONTENT_MARKETING --> RETARGET
     
@@ -198,13 +198,9 @@ flowchart TD
     
     CREATE_POSTS --> INSTAGRAM[Schedule Instagram]
     CREATE_POSTS --> FACEBOOK[Schedule Facebook]
-    CREATE_POSTS --> TWITTER[Schedule Twitter]
-    CREATE_POSTS --> LINKEDIN[Schedule LinkedIn]
     
     INSTAGRAM --> MONITOR_ENGAGEMENT[Monitor Engagement]
     FACEBOOK --> MONITOR_ENGAGEMENT
-    TWITTER --> MONITOR_ENGAGEMENT
-    LINKEDIN --> MONITOR_ENGAGEMENT
     
     MONITOR_ENGAGEMENT --> HIGH_ENG{High Engagement?}
     HIGH_ENG -->|Yes| BOOST_POST[Boost Post with Ads]
@@ -340,14 +336,13 @@ flowchart TD
 - **Klaviyo Pro**: $60/mes
 - **Hootsuite**: $49/mes
 - **n8n Cloud**: $50/mes
-- **Facebook/Google Ads**: $1,500/mes
+- **Facebook/Meta Ads**: $1,500/mes
 - **Analytics Tools**: $100/mes
 - **Total Herramientas**: $1,759/mes
 
 ### Ad Spend Distribution
-- **Google Ads**: 40% ($600/mes)
-- **Facebook/Instagram**: 35% ($525/mes)
-- **LinkedIn Ads**: 15% ($225/mes)
+- **Facebook Ads**: 60% ($900/mes)
+- **Instagram Ads**: 30% ($450/mes)
 - **Influencer Marketing**: 10% ($150/mes)
 
 ### ROI Proyectado

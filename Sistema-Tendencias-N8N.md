@@ -146,8 +146,8 @@ flowchart TD
 2. **Social Media APIs**
    - Twitter API v2 (tech hashtags)
    - Reddit API (r/technology, r/gadgets)
-   - YouTube API (tech channels)
-   - LinkedIn Tech Influencers
+   - Facebook Pages API (tech pages)
+   - Instagram Influencers API
 
 3. **E-commerce Data**
    - Amazon Best Sellers API
@@ -157,7 +157,7 @@ flowchart TD
 
 4. **Trend Analytics**
    - Google Trends API
-   - Google Shopping Insights
+   - Facebook Commerce Insights
    - SEMrush Trending Keywords
 
 ### Fuentes Secundarias

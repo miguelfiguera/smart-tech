@@ -1,289 +1,314 @@
-# 🚀 TechSmart - E-commerce de Tecnología
+# 🚀 TechSmart - AI-Powered Tech E-commerce
 
 [![Build Status](https://img.shields.io/badge/build-in%20development-yellow)](https://github.com/techsmart)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0--beta-green)](package.json)
 
-> **E-commerce de tecnología en español con sistema automatizado de tendencias y marketing inteligente**
+> **AI-powered tech e-commerce with automated trend detection and intelligent marketing for the US market**
 
 ---
 
 ## 📋 Tabla de Contenidos
 
+### **Para Stakeholders & Inversores**
+
 - [🎯 Descripción del Proyecto](#-descripción-del-proyecto)
+- [📊 Análisis de Mercado](#-análisis-de-mercado)
+- [🎯 Target & Posicionamiento](#-target--posicionamiento)
+- [💰 Modelo de Negocio](#-modelo-de-negocio)
+- [📈 Plan de Marketing](#-plan-de-marketing)
+- [📊 Roadmap & Objetivos](#-roadmap--objetivos)
+
+### **Para Desarrolladores & Técnicos**
+
 - [🏗️ Arquitectura & Stack Tecnológico](#️-arquitectura--stack-tecnológico)
 - [📚 Documentación Técnica](#-documentación-técnica)
-- [📈 Estrategia de Negocio](#-estrategia-de-negocio)
-- [🎯 Plan de Marketing](#-plan-de-marketing)
-- [💰 Modelo de Negocio](#-modelo-de-negocio)
-- [📊 Roadmap](#-roadmap)
+
+### **Información General**
+
+- [📞 Contacto](#-contacto)
 
 ---
 
 ## 🎯 Descripción del Proyecto
 
-TechSmart es un **e-commerce especializado en tecnología** que combina la potencia de **Shopify** con **automatización avanzada via n8n** para ofrecer productos tecnológicos en tendencia al mercado estadounidense.
+**TechSmart** es un e-commerce especializado en tecnología que revoluciona la venta online mediante **inteligencia artificial** y **automatización avanzada**. Nos enfocamos en el mercado estadounidense, ofreciendo productos tecnológicos trending identificados automáticamente.
 
-### ✨ Características Principales
+### 🌟 **Propuesta de Valor Única**
 
-- 🔄 **Sistema automatizado de tendencias** - Identificación inteligente de productos trending
-- 🛍️ **E-commerce optimizado** - Built on Shopify con experiencia personalizada
-- 📱 **Marketing automatizado** - Campañas multicanal con n8n workflows
-- 📊 **Analytics en tiempo real** - Dashboard completo de métricas
-- 🇺🇸 **Mercado estadounidense** - Enfoque en consumidores USA con tech trending
+- **🔍 Productos en tendencia** identificados automáticamente mediante IA
+- **📋 Información completa y confiable** - fichas técnicas, comparativas y reseñas
+- **🏠 Visualización contextual** - productos mostrados en ambiente real (hogar/oficina)
+- **⚡ Acceso rápido** - todo lo que necesitas, a un clic de distancia
+- **🤖 Experiencia personalizada** - recomendaciones impulsadas por IA
 
----
+### 💡 **¿Por qué TechSmart?**
 
-## ⚡ Quick Start
+En el mercado saturado de e-commerce tech, nos diferenciamos por:
 
-### Prerrequisitos
-
-- Node.js 18+
-- Shopify Partner Account
-- n8n Cloud/Self-hosted
-- Git
-
-## 🏗️ Arquitectura & Stack Tecnológico
-
-### Frontend
-
-- **Shopify Liquid** → **Hydrogen (React)** - Progressive migration
-- **Tailwind CSS** - Styling framework
-- **PWA Support** - Progressive Web App capabilities
-
-### Backend & APIs
-
-- **Shopify Storefront API** - E-commerce core (GraphQL)
-- **n8n Workflows** - Automation engine
-- **OpenAI API** - AI-powered content analysis
-- **Google Trends API** - Trend detection
-
-### Automatización
-
-- **n8n Cloud** - Workflow orchestration
-- **Webhooks** - Real-time data sync
-- **Scheduled Jobs** - Periodic trend analysis
-
-### Infraestructura
-
-- **Phase 1**: Shopify hosting + n8n Cloud
-- **Phase 2**: Vercel (Hydrogen) + Custom APIs
-
-```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│  Frontend   │    │   n8n       │    │  External   │
-│  Shopify/   │◄──►│  Workflows  │◄──►│  APIs       │
-│  Hydrogen   │    │  Engine     │    │  & Data     │
-└─────────────┘    └─────────────┘    └─────────────┘
-```
+- **Detección automática de tendencias** antes que la competencia
+- **Dropshipping inteligente** sin costos de inventario
+- **Experiencia de compra superior** con información detallada
+- **Marketing automatizado** que reduce costos operativos
 
 ---
 
-## 📚 Documentación Técnica
+## 📊 Análisis de Mercado
 
-| Documento                                             | Descripción                          | Estado |
-| ----------------------------------------------------- | ------------------------------------ | ------ |
-| [📋 Plan de Proyecto](Plan-Proyecto-TechSmart.md)     | User stories y roadmap completo      | ✅     |
-| [🏗️ Arquitectura](Arquitectura-TechSmart.md)          | Hydrogen + Lovable + Claude stack    | ✅     |
-| [📈 Sistema de Tendencias](Sistema-Tendencias-N8N.md) | Automatización con n8n + diagramas   | ✅     |
-| [🎯 Plan de Marketing](Plan-Marketing-N8N.md)         | Estrategia automatizada + workflows  | ✅     |
-| [💰 Modelo de Negocio](Modelo-Negocio-TechSmart.md)   | Dropshipping, logística, proveedores | ✅     |
-
----
-
-## 📈 Estrategia de Negocio
-
-### 🎯 Análisis FODA
+### 🎯 **Análisis FODA**
 
 #### ✅ **Fortalezas**
 
-- Catálogo de productos modernos y en tendencia con fuerte relación precio/calidad
-- **Dropshipping** (sin costos de inventario ni almacenamiento)
-- **Automatización avanzada** con n8n para identificación de tendencias
-- Enfoque en información detallada de productos (diferenciador clave)
+- Catálogo curado con productos de alta demanda y relación precio/calidad probada
+- **Modelo dropshipping** elimina costos de inventario y almacenamiento
+- **Automatización con IA** para identificación de tendencias y marketing
+- Enfoque en información detallada como diferenciador clave
+- Stack tecnológico moderno (Shopify Hydrogen + n8n + Claude AI)
 
 #### ⚠️ **Debilidades**
 
-- Marca nueva, sin reconocimiento establecido
+- Marca nueva sin reconocimiento establecido en el mercado
 - Dependencia de terceros para logística y tiempos de entrega
+- Inversión inicial requerida en tecnología y marketing
 
 #### 🚀 **Oportunidades**
 
-- Mercado estadounidense de e-commerce tech valorado en $200B+
-- Alta demanda de tecnología para oficina moderna, teletrabajo y hogar inteligente
-- **Ventaja competitiva** con sistema automatizado de tendencias
-- Consumers tech-savvy con alto poder adquisitivo
+- **Mercado USA de e-commerce tech**: Valorado en **$200B+** y en crecimiento
+- **Demanda post-pandemia**: Alta demanda de tech para home office y hogar inteligente
+- **Ventaja competitiva**: Sistema automatizado vs competencia tradicional
+- **Consumidores tech-savvy** con alto poder adquisitivo y disposición a pagar por calidad
 
 #### 🔴 **Amenazas**
 
 - Competencia establecida (Amazon, Best Buy, Newegg, B&H)
-- Posibles problemas en cadena de suministros
+- Posibles disrupciones en cadena de suministros globales
+- Cambios en algoritmos de plataformas publicitarias (Meta/Facebook)
 
-### 🎯 Segmentación & Target
+### 💹 **Oportunidad de Mercado**
 
-#### **Target Principal**: Profesionales Tech-Savvy (60%)
-
-- **Demográfico**: 25-45 años, nivel socioeconómico medio-alto
-- **Psicográfico**: Early adopters, valoran calidad y información detallada
-- **Conductual**: Compran online frecuentemente, comparan antes de decidir
-
-#### **Target Secundario**: Budget-Conscious (40%)
-
-- **Demográfico**: 20-35 años, estudiantes y jóvenes profesionales
-- **Psicográfico**: Buscan value for money, influenciados por tendencias
-- **Conductual**: Sensibles al precio, activos en redes sociales
-
-### 💭 **Posicionamiento**
-
-> _"The US tech e-commerce where you discover trending products first, powered by AI insights and comprehensive product intelligence"_
+| Segmento               | Tamaño (US) | Crecimiento Anual | Oportunidad TechSmart         |
+| ---------------------- | ----------- | ----------------- | ----------------------------- |
+| **Smart Home**         | $25B        | 15%               | Automatización + curación     |
+| **Gaming Tech**        | $45B        | 12%               | Early trend detection         |
+| **Work From Home**     | $30B        | 18%               | Context-aware recommendations |
+| **Mobile Accessories** | $70B        | 8%                | AI-powered selection          |
 
 ---
 
-## 🎯 Plan de Marketing
+## 🎯 Target & Posicionamiento
 
-### 📊 **Objetivos SMART (12 meses)**
+### 📊 **Segmentación de Mercado**
 
-| Métrica            | Objetivo             | Estrategia                      |
-| ------------------ | -------------------- | ------------------------------- |
-| **Tráfico web**    | 10,000 visitas/mes   | SEO + Paid Ads                  |
-| **Conversión**     | 3.5% conversion rate | UX optimization + Automation    |
-| **Redes sociales** | 5,000 seguidores     | Content marketing + Influencers |
-| **Email list**     | 2,000 suscriptores   | Lead magnets + Nurturing        |
+#### **Segmentación Demográfica**
 
-### 🎨 **Propuesta de Valor**
+- **Edad**: 20-50 años
+- **Género**: Hombres y mujeres (sin sesgo)
+- **Nivel socioeconómico**: Medio y medio-alto ($40K-$150K+ household income)
+- **Ubicación**: Estados Unidos (urban y suburban)
 
-- ✅ **Productos en tendencia** identificados automáticamente
-- ✅ **Información completa y confiable** - fichas técnicas detalladas
-- ✅ **Experiencia visual** - productos en contexto de hogar/oficina
-- ✅ **Fast access** - everything you need, one click away
+#### **Segmentación Psicográfica**
 
-### 📢 **Mensajes Clave**
+- Interesados en **tecnología trending** y funcional
+- Valoran **diseño moderno** y calidad
+- **Early adopters** de nuevas tecnologías
+- Buscan **eficiencia** en hogar y oficina
 
-- _"Shop with confidence: complete information, before you decide"_  
-- _"Trending tech, detected automatically for you"_
-- _"The latest gadgets, delivered to your door"_
+#### **Segmentación Conductual**
 
-### 🚀 **Plan de Acción por Fases**
+- **Compradores online frecuentes** que valoran conveniencia
+- **Investigadores** que comparan productos y precios
+- **Buscan reseñas** antes de tomar decisiones de compra
+- Dispuestos a **pagar premium** por información y calidad
 
-#### **Meses 1-3: Lanzamiento MVP**
+### 🎯 **Público Objetivo Principal**
 
-- ✅ Setup Shopify + tema customizado
-- ✅ Workflows básicos de n8n
-- 📱 Campaña redes sociales con contenido educativo
-- 🔍 SEO básico y Google Analytics
+**Profesionales, universitarios y emprendedores** que buscan optimizar su hogar u oficina con dispositivos de tecnología moderna y trending, sin necesidad de hacer búsqueda exhaustiva.
 
-#### **Meses 4-6: Escalamiento**
+### 🎭 **Posicionamiento Estratégico**
 
-- 💰 Facebook Ads + Google Shopping
-- 📝 Blog con contenido tipo "Top 5 gadgets 2025"
-- 🤖 Email marketing automatizado
-- 📊 Sistema de tendencias en producción
+> _"The US tech marketplace where you discover trending products first, with all the information you need to make smart purchasing decisions, just one click away."_
 
-#### **Meses 7-12: Optimización**
+#### **Mensajes Clave**
 
-- 🎯 Segmentación avanzada y personalización
-- 🔄 Migración gradual a Hydrogen (si aplica)
-- 📈 Expansion de catálogo basada en data
-- 🏆 Programa de lealtad y referidos
+- _"Shop with confidence: complete information, before you decide"_
+- _"The most modern and trending devices for your home and office, at the best price"_
+- _"Trending technology, now closer to you"_
 
 ---
 
 ## 💰 Modelo de Negocio
 
 ### 🎯 **Concepto Central**
-**TechSmart opera como un e-commerce especializado en dropshipping de tecnología**, conectando consumidores estadounidenses con productos tech trending sin mantener inventario físico.
 
-### 📦 **Operación Dropshipping**
-- **Sin inventario**: Los productos se envían directamente desde proveedores
+**TechSmart** opera como un **e-commerce dropshipping especializado** que conecta consumidores estadounidenses con productos tecnológicos trending, sin mantener inventario físico, utilizando IA para automatizar la selección y el marketing.
+
+### 📦 **Estructura de Dropshipping**
+
+#### **Producto**
+
+- **Dispositivos y accesorios tecnológicos trending** (hogar y oficina inteligentes)
+- **Garantía de información** clara, detallada y confiable
+- **Reseñas verificadas** y comparativas entre productos del catálogo
+- **Curación experta**: Solo los mejores productos, pre-seleccionados
+
+#### **Precio**
+
+- **Estrategia competitiva**: Destacar relación precio/calidad superior
+- **Preselección inteligente**: Productos trending con demanda probada
+- **Ofertas dinámicas**: Descuentos alineados con proveedores
 - **Margen objetivo**: 20-35% por venta
-- **Selección automatizada**: Sistema AI identifica productos en tendencia
-- **Proveedores verificados**: Red de suppliers tecnológicos confiables
 
-### 🛒 **Customer Journey**
-1. **Descubrimiento**: Productos trending detectados automáticamente
-2. **Información completa**: Fichas técnicas detalladas y reviews
-3. **Compra segura**: Checkout optimizado con múltiples métodos de pago
-4. **Fulfillment**: Coordinación automática con proveedores
-5. **Soporte**: Atención al cliente proactiva y resolución de disputas
+#### **Plaza (Distribución)**
 
-### 🎯 **Revenue Streams**
-- **Ventas directas**: Margen sobre productos dropshipped
-- **Marketing fees**: Comisiones por productos promocionados
-- **Programa afiliados**: Revenue share con influencers tech
-- **Servicios premium**: Consultoría en selección de productos
+- **100% online** con envíos rápidos vía dropshipping (2-7 días USA)
+- **Integración segura**: PayPal, Stripe, Apple Pay, major credit cards
+- **Fulfillment automatizado**: Coordinación directa proveedor-cliente
 
-### 📊 **Métricas Clave**
-- **AOV**: $120-160 promedio por orden
-- **Conversion rate**: Target 3-5%
-- **Customer retention**: >60% repeat purchases
-- **Fulfillment time**: 2-7 días para mercado USA
+#### **Promoción (Marketing Mix Digital)**
 
-*Para detalles completos del modelo operativo, ver [📋 Modelo de Negocio Completo](Modelo-Negocio-TechSmart.md)*
+- **SEO**: Landing pages optimizadas para trending keywords
+- **Social Media**: Facebook/Instagram ads con demos y reviews
+- **Email Marketing**: Segmentado (novedades, comparativas, ofertas)
+- **Content Marketing**: "Top 5 office devices 2025", "Home tech essentials"
 
-### 🎯 **KPIs de Seguimiento**
+### 💰 **Revenue Streams**
 
-#### **Métricas de Negocio**
+1. **Ventas directas**: Margen sobre productos dropshipped (70% del revenue)
+2. **Marketing fees**: Comisiones por productos promoted (15% del revenue)
+3. **Affiliate program**: Revenue share con tech influencers (10% del revenue)
+4. **Premium services**: Product consultation y custom recommendations (5% del revenue)
 
-- 💰 **Revenue mensual** - A definir post-lanzamiento
-- 📊 **Conversion rate** - Benchmark e-commerce: 2-4%
-- 💵 **AOV - Average Order Value** - Sector tech: $100-200
-- 🔄 **Customer retention** - Target: >50%
+### 📊 **Métricas de Negocio Clave**
 
-#### **Métricas de Marketing**
+| KPI                                 | Target Año 1   | Industry Benchmark    |
+| ----------------------------------- | -------------- | --------------------- |
+| **Tráfico web mensual**             | 10,000 visitas | Variable              |
+| **Tasa de conversión**              | 3.5%           | 2-4% e-commerce       |
+| **AOV (Average Order Value)**       | $140           | $100-200 tech         |
+| **Customer retention**              | >60%           | 50-70% típico         |
+| **CAC (Customer Acquisition Cost)** | <$35           | $20-50 promedio       |
+| **Fulfillment time**                | 2-7 días       | 3-10 días competencia |
 
-- 🌐 **Tráfico web mensual** - Medición via Google Analytics
-- 💰 **CAC - Customer Acquisition Cost** - Benchmark: $20-50
-- 📧 **Email CTR** - Industry standard: 2-5%
-- 📱 **Social engagement rate** - Target: >3%
-
-#### **Métricas Técnicas**
-
-- ⚡ **Page load speed** (target: <2s)
-- 🛒 **Cart abandonment rate** (target: <60%)
-- ⏱️ **System uptime** (target: 99.9%)
-- 🤖 **Automation success rate** (target: >95%)
+_Para detalles operativos completos: [💰 Modelo de Negocio Detallado](Modelo-Negocio-TechSmart.md)_
 
 ---
 
-## 📊 Roadmap
+## 📈 Plan de Marketing
 
-### 🎯 **Q1 2025: MVP Launch**
+### 🎯 **Objetivos SMART (12 meses)**
 
-- [ ] Sistema básico de tendencias
-- [ ] 50 productos en catálogo
-- [ ] Workflows de email marketing
+| Métrica                       | Objetivo           | Estrategia Clave                     |
+| ----------------------------- | ------------------ | ------------------------------------ |
+| **Tráfico web mensual**       | 10,000 visitas     | SEO + Meta Ads                       |
+| **Tasa de conversión**        | 3.5%               | UX optimization + AI personalization |
+| **Seguidores redes sociales** | 5,000              | Content marketing + Influencers      |
+| **Lista de email**            | 2,000 suscriptores | Lead magnets + Nurturing campaigns   |
 
-### 🚀 **Q2 2025: Growth**
+### 🚀 **Plan de Acción por Fases**
 
-- [ ] Migración a Hydrogen
-- [ ] Sistema avanzado de AI trends
-- [ ] 200+ productos activos
-- [ ] Expansion a 3 países LATAM
+#### **Meses 1-3: Lanzamiento MVP**
 
-### 🎖️ **Q3-Q4 2025: Scale**
+- **Web launch** con SEO básico optimizado
+- **Campañas educativas** en redes sociales (how to choose the right tech)
+- **Content creation**: Product comparison guides y tech trends
 
-- [ ] App móvil nativa
-- [ ] Programa de afiliados
-- [ ] Integración con marketplaces
-- [ ] Expansión internacional
+#### **Meses 4-6: Escalamiento**
+
+- **Meta Ads campaigns** (Facebook + Instagram)
+- **Blog expansion**: "Top 5 office devices 2025", "Essential home tech 2025"
+- **Email marketing** automatizado con segmentación por interés
+
+#### **Meses 7-12: Optimización**
+
+- **Advanced targeting** y personalización basada en data
+- **Catálogo expansion** según trending data de Amazon/otros marketplaces
+- **Loyalty program** y referral system
+
+### 💡 **Fuentes de Productos del Catálogo**
+
+#### **Data Sources for Trend Detection**
+
+- **Amazon Bestsellers** por categoría (análisis automatizado)
+- **Trending searches** en marketplaces principales
+- **Google Trends** para marcas y modelos específicos
+- **Social listening** en tech communities
+
+#### **Categorías Principales**
+
+- **📱 Smartphones & Accessories** (30% del catálogo)
+- **💻 Computing & Work Tech** (25% del catálogo)
+- **🏠 Smart Home & IoT** (20% del catálogo)
+- **🎮 Gaming & Entertainment** (15% del catálogo)
+- **⌚ Wearables & Health Tech** (10% del catálogo)
 
 ---
 
-## 🤝 Contribución
+## 📊 Roadmap & Objetivos
 
-### 📋 **Getting Started**
+### 🎯 **Q1 2025: MVP Launch & Validation**
 
-1. Fork el repositorio
-2. Crear feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit cambios (`git commit -m 'Add amazing feature'`)
-4. Push al branch (`git push origin feature/amazing-feature`)
-5. Crear Pull Request
+- [ ] **Shopify setup** + custom theme deployment
+- [ ] **Basic n8n workflows** para trend detection
+- [ ] **Initial catalog**: 50 curated trending products
+- [ ] **Email marketing** automation setup
+- [ ] **Target**: $10K revenue, 500 customers
 
-### 📏 **Code Style**
+### 🚀 **Q2 2025: Growth & Optimization**
 
-- ESLint + Prettier configurado
-- Convenciones de naming consistentes
-- Tests requeridos para nuevas features
+- [ ] **Hydrogen migration** para better performance
+- [ ] **Advanced AI trends** system con machine learning
+- [ ] **Catalog expansion**: 200+ active products
+- [ ] **Meta Ads scaling** + influencer partnerships
+- [ ] **Target**: $35K revenue/month, 2,000 customers
+
+### 🎖️ **Q3-Q4 2025: Scale & Diversification**
+
+- [ ] **Mobile app** development (PWA/Native)
+- [ ] **Affiliate program** launch
+- [ ] **Marketplace integration** (Amazon, eBay)
+- [ ] **International expansion** preparation
+- [ ] **Target**: $75K revenue/month, 5,000+ customers
+
+### 💰 **Investment & ROI Projections**
+
+| Phase           | Investment Required         | Expected Monthly Revenue | ROI Timeline         |
+| --------------- | --------------------------- | ------------------------ | -------------------- |
+| **Q1 MVP**      | $25K setup + $8K/month ops  | $10K by month 3          | Break-even month 6   |
+| **Q2 Growth**   | $15K tech + $12K/month ads  | $35K by month 6          | Positive ROI month 8 |
+| **Q3-Q4 Scale** | $30K expansion + $20K/month | $75K+ by month 12        | 300%+ ROI year 2     |
+
+---
+
+### **Para Desarrolladores & Técnicos**
+
+## 🏗️ Arquitectura & Stack Tecnológico
+
+### **AI-Powered Development Stack**
+
+- **Frontend**: Shopify Hydrogen (React 18+) + Tailwind CSS
+- **AI Development**: Lovable Platform + Claude Code assistant
+- **Backend**: Shopify Storefront API (GraphQL) + n8n automation
+- **Intelligence**: OpenAI API + Google Trends + Social APIs
+- **Infrastructure**: Vercel hosting + Global CDN
+
+### **System Architecture**
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│  Hydrogen App   │    │   n8n Engine    │    │  Intelligence   │
+│  + Claude AI    │◄──►│  + Workflows    │◄──►│  APIs & Data    │
+│  + Lovable      │    │  + Automation   │    │  + Trends       │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
+
+## 📚 Documentación Técnica
+
+| Documento                                             | Descripción                          | Estado |
+| ----------------------------------------------------- | ------------------------------------ | ------ |
+| [🏗️ Arquitectura](Arquitectura-TechSmart.md)          | Hydrogen + Lovable + Claude stack    | ✅     |
+| [📈 Sistema de Tendencias](Sistema-Tendencias-N8N.md) | Automatización con n8n + diagramas   | ✅     |
+| [🎯 Plan de Marketing](Plan-Marketing-N8N.md)         | Estrategia automatizada + workflows  | ✅     |
+| [💰 Modelo de Negocio](Modelo-Negocio-TechSmart.md)   | Dropshipping, logística, proveedores | ✅     |
 
 ---
 
@@ -294,10 +319,4 @@ TechSmart es un **e-commerce especializado en tecnología** que combina la poten
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver [LICENSE](LICENSE) para detalles.
-
----
-
-_Construyendo el futuro del e-commerce tech en español_ 🚀
+_Building the future of AI-powered tech e-commerce_ 🚀
