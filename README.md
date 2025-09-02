@@ -189,7 +189,7 @@ En el mercado saturado de e-commerce tech, nos diferenciamos por:
 | **CAC (Customer Acquisition Cost)** | <$35           | $20-50 promedio       |
 | **Fulfillment time**                | 2-7 días       | 3-10 días competencia |
 
-_Para detalles operativos completos: [💰 Modelo de Negocio Detallado](Modelo-Negocio-TechSmart.md)_
+_Para detalles operativos completos: [💰 Modelo de Negocio para Stakeholders](Modelo-Negocio-Stakeholders-TechSmart.md)_
 
 ---
 
@@ -308,7 +308,7 @@ _Para detalles operativos completos: [💰 Modelo de Negocio Detallado](Modelo-N
 | [🏗️ Arquitectura](Arquitectura-TechSmart.md)          | Hydrogen + Lovable + Claude stack    | ✅     |
 | [📈 Sistema de Tendencias](Sistema-Tendencias-N8N.md) | Automatización con n8n + diagramas   | ✅     |
 | [🎯 Plan de Marketing](Plan-Marketing-N8N.md)         | Estrategia automatizada + workflows  | ✅     |
-| [💰 Modelo de Negocio](Modelo-Negocio-TechSmart.md)   | Dropshipping, logística, proveedores | ✅     |
+| [💰 Modelo de Negocio](Modelo-Negocio-Stakeholders-TechSmart.md)   | Dropshipping, logística, proveedores | ✅     |
 
 ---
 
